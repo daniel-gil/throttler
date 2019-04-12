@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.1] - 2019-04-12
+### Changed
+- Updated documentation
+- Fixed references
+
 ## [0.1.0] - 2018-03-16
 ### Changed
 - Convert private methods into structs with an interface (fulfiller, client and listener) that can be injected, it makes easier testing all parts of the code.
@@ -15,4 +20,4 @@
 
 ## [0.0.1] - 2018-03-06
 
-Initial release (@centraldereservas).
+Initial release

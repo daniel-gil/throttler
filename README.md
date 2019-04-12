@@ -1,11 +1,11 @@
-# throttler  [![Build Status](https://travis-ci.org/centraldereservas/throttler.svg?branch=master)](https://travis-ci.org/centraldereservas/throttler) [![Coverage Status](https://coveralls.io/repos/github/centraldereservas/throttler/badge.svg?branch=master)](https://coveralls.io/github/centraldereservas/throttler?branch=master) [![Report card](https://goreportcard.com/badge/github.com/centraldereservas/throttler)](https://goreportcard.com/report/github.com/centraldereservas/throttler) ![Project status](https://img.shields.io/badge/version-0.1.0-green.svg)  ![Project dependencies](https://img.shields.io/badge/dependencies-none-green.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GoDoc](https://godoc.org/github.com/centraldereservas/throttler?status.svg)](https://godoc.org/github.com/centraldereservas/throttler)
+# throttler  [![Build Status](https://travis-ci.org/daniel-gil/throttler.svg?branch=master)](https://travis-ci.org/daniel-gil/throttler) [![Coverage Status](https://coveralls.io/repos/github/daniel-gil/throttler/badge.svg?branch=master)](https://coveralls.io/github/daniel-gil/throttler?branch=master) [![Report card](https://goreportcard.com/badge/github.com/daniel-gil/throttler)](https://goreportcard.com/report/github.com/daniel-gil/throttler) ![Project status](https://img.shields.io/badge/version-0.1.0-green.svg)  ![Project dependencies](https://img.shields.io/badge/dependencies-none-green.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GoDoc](https://godoc.org/github.com/daniel-gil/throttler?status.svg)](https://godoc.org/github.com/daniel-gil/throttler)
 
 Provides a throttle request channel for Go that controls request rate limit in order to prevent exceeding a predefined API quota.
 
 ## Installation
 
 ```sh
-go get github.com/centraldereservas/throttler
+go get github.com/daniel-gil/throttler
 ```
 
 ## Motivation
@@ -233,7 +233,7 @@ $ go test -race
 PASS
 [2018-03-16 11:37:46.785455926 +0100 CET m=+2.917360001] got ticket; Fulfilling Request [Negative TC: force timeout in Queue]
 [2018-03-16 11:37:46.785917845 +0100 CET m=+2.917821913] Request fulfilled [Negative TC: force timeout in Queue]
-ok      github.com/centraldereservas/throttler  3.389s
+ok      github.com/daniel-gil/throttler  3.389s
 
 ```
 
@@ -254,5 +254,5 @@ ok      github.com/centraldereservas/throttler  3.389s
 
 This project is under the [MIT License][mit].
 
-[mit]: https://github.com/centraldereservas/throttler/blob/master/LICENSE
-[doc]: https://godoc.org/github.com/centraldereservas/throttler
+[mit]: https://github.com/daniel-gil/throttler/blob/master/LICENSE
+[doc]: https://godoc.org/github.com/daniel-gil/throttler
