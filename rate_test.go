@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/centraldereservas/throttler"
+	"github.com/daniel-gil/throttler"
 )
 
 func TestNewRateByCallsPerSecond(t *testing.T) {

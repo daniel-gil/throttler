@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/centraldereservas/throttler"
+	"github.com/daniel-gil/throttler"
 )
 
 var duration35min = 35 * time.Minute

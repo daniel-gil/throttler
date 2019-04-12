@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/centraldereservas/throttler"
+	"github.com/daniel-gil/throttler"
 )
 
 var t throttler.Limiter
